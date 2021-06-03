@@ -48,18 +48,22 @@ body{
     align-items: center;
     padding: 0px 30px;
 }
-.timer__box-number{
+#timer__box-number-days,
+#timer__box-number-hours,
+#timer__box-number-minutes,
+#timer__box-number-seconds{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
     width: 150px;
     color: var(--soft-red);
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 600;
     border-radius: 5%;
     background-color: var(--dark-desaturated-blue);
     box-shadow: 0px 10px 0px var(--very-dark-black-blue);
+    z-index: 1;
 }
 .timer__box-number-md-leftdot{
     width: 10px;
@@ -77,6 +81,7 @@ body{
     width: 180px;
     background-color: var(--very-dark-black-blue);
     opacity: .5;
+    z-index: 10;
 }
 .timer__box-number-md-rightdot{
     width: 10px;
@@ -129,3 +134,4 @@ body{
     width: 100%;
     height: 35%;
 }
+/* IDK */
